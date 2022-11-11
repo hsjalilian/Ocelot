@@ -34,6 +34,7 @@
       <ul>
         <li><a href="#basic">Basic</a></li>
         <li><a href="#multi-services">Multi Services</a></li>
+        <li><a href="#multi-services">Multi Services</a></li>
       </ul>
     </li>
   </ol>
@@ -65,12 +66,12 @@ Benefits of API gateways
 
 
 ## What Is Ocelot
-Ocelot is a .NET API Gateway. This project is aimed at people using .NET running a micro services / service oriented architecture 
-that need a unified point of entry into their system. However it will work with anything that speaks HTTP and run on any platform that ASP.NET Core supports.
+Ocelot is a .NET API Gateway. This project is aimed at people using .NET running a micro services/service-oriented architecture 
+that needs a unified point of entry into their system. However, it will work with anything that speaks HTTP and run on any platform that ASP.NET Core supports.
 
 ## Features
 
-A quick list of Ocelot's capabilities for more information see the [documentation](https://ocelot.readthedocs.io/en/latest/).
+For a quick list of Ocelot's capabilities for more information see the [documentation](https://ocelot.readthedocs.io/en/latest/).
 
 * Routing
 * Request Aggregation
@@ -109,7 +110,7 @@ All versions can be found [here](https://www.nuget.org/packages/Ocelot/)
 
 ## Basic 
 
-A most simplest sample that introduce how to use Ocelot here .
+The simplest sample that introduces how to use Ocelot here.
 
 Link here : [Basic](https://github.com/hsjalilian/Ocelot/tree/master/src/Basic)
 
@@ -118,3 +119,9 @@ Link here : [Basic](https://github.com/hsjalilian/Ocelot/tree/master/src/Basic)
 Same as the Basic template but routes requests to multi services.
 
 Link here : [Mulit Services](https://github.com/hsjalilian/Ocelot/tree/master/src/MulitServices)
+
+## Request Aggregation 
+
+In this project, receive request and collect response from two different services.
+
+Link here : [Request Aggregation](https://github.com/hsjalilian/Ocelot/tree/master/src/RequestAggregation)
