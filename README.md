@@ -1,1 +1,113 @@
-# Ocelot
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/hsjalilian/Ocelot">
+    <img src="/images/ocelot_logo.png" alt="Ocelot Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Ocelot API Gateway</h3>
+
+  <p align="center">   
+    <br />
+    <a href="https://github.com/hsjalilian/Ocelot/tree/master/docs"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/hsjalilian/Ocelot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hsjalilian/Ocelot/issues">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#ocelot-api-gateway">Ocelot API Gateway</a></li>  
+    <li><a href="#what-is-an-api-gateway?">What Is an API Gateway?</a></li>
+    <li><a href="#what-is-ocelot">What Is Ocelot</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#how-to-install">How to install</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li>
+      <a href="#sample-projects">Sample Projects</a>
+      <ul>
+        <li><a href="#basic">Basic</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+# Ocelot API Gateway
+This repository contains some samples that show ocelot features in different projects from basic to advance config.  
+
+
+##  What Is an API Gateway?
+An API gateway is an API management tool that sits between a client and a collection of backend services.
+
+An API gateway acts as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services required to fulfill them, and return the appropriate result.
+
+Benefits of API gateways
+
+* Security
+* API authentication
+* Input validation
+* Filtering
+* Faster response times
+* load balancing
+* Rate limiting
+* Expose only one endpoint* 
+* Billing for microservices
+* caching
+* Monitoring and tracking
+* Extending legacy apps
+
+
+## What Is Ocelot
+Ocelot is a .NET API Gateway. This project is aimed at people using .NET running a micro services / service oriented architecture 
+that need a unified point of entry into their system. However it will work with anything that speaks HTTP and run on any platform that ASP.NET Core supports.
+
+## Features
+
+A quick list of Ocelot's capabilities for more information see the [documentation](https://ocelot.readthedocs.io/en/latest/).
+
+* Routing
+* Request Aggregation
+* Service Discovery with Consul & Eureka
+* Service Fabric
+* Kubernetes 
+* WebSockets
+* Authentication
+* Authorization
+* Rate Limiting
+* Caching
+* Retry policies / QoS
+* Load Balancing
+* Logging / Tracing / Correlation
+* Headers / Method / Query String / Claims Transformation
+* Custom Middleware / Delegating Handlers
+* Configuration / Administration REST API
+* Platform / Cloud Agnostic
+
+
+## How to install
+
+Ocelot is designed to work with ASP.NET and it targets `net6.0`.
+
+Install Ocelot and it's dependencies using NuGet.
+
+`Install-Package Ocelot`
+
+Or via the .NET Core CLI:
+
+`dotnet add package ocelot`
+
+All versions can be found [here](https://www.nuget.org/packages/Ocelot/)
+
+# Sample Projects
+
+## Basic 
+
+A most simplest sample that introduce how to use Ocelot here .
+
+Link here : [Basic](https://github.com/hsjalilian/Ocelot/tree/master/Basic)
