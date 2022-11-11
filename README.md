@@ -33,6 +33,7 @@
       <a href="#sample-projects">Sample Projects</a>
       <ul>
         <li><a href="#basic">Basic</a></li>
+        <li><a href="#multi-services">Multi Services</a></li>
       </ul>
     </li>
   </ol>
@@ -110,4 +111,10 @@ All versions can be found [here](https://www.nuget.org/packages/Ocelot/)
 
 A most simplest sample that introduce how to use Ocelot here .
 
-Link here : [Basic](https://github.com/hsjalilian/Ocelot/tree/master/Basic)
+Link here : [Basic](https://github.com/hsjalilian/Ocelot/tree/master/src/Basic)
+
+## Multi Services 
+
+Same as the Basic template but routes requests to multi services.
+
+Link here : [Mulit Services](https://github.com/hsjalilian/Ocelot/tree/master/src/MulitServices)
