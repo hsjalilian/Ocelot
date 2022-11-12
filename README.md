@@ -34,7 +34,8 @@
       <ul>
         <li><a href="#basic">Basic</a></li>
         <li><a href="#multi-services">Multi Services</a></li>
-        <li><a href="#multi-services">Multi Services</a></li>
+        <li><a href="#request-aggregation">Request Aggregation</a></li>
+        <li><a href="#logging">Logging</a></li>
       </ul>
     </li>
   </ol>
@@ -125,3 +126,9 @@ Link here : [Mulit Services](https://github.com/hsjalilian/Ocelot/tree/master/sr
 In this project, receive request and collect response from two different services.
 
 Link here : [Request Aggregation](https://github.com/hsjalilian/Ocelot/tree/master/src/RequestAggregation)
+
+## Logging
+
+In this project, use Serilog for log all request in file.
+
+Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Logging)
