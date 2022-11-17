@@ -38,6 +38,7 @@
         <li><a href="#logging">Logging</a></li>
         <li><a href="#authentication-and-authorization">Authentication and Authorization</a></li>
         <li><a href="#ratelimit">RateLimit</a></li>
+        <li><a href="#caching">Caching</a></li>
       </ul>
     </li>
   </ol>
@@ -61,7 +62,7 @@ Benefits of API gateways
 * Faster response times
 * load balancing
 * Rate limiting
-* Expose only one endpoint* 
+* Expose only one endpoint
 * Billing for microservices
 * caching
 * Monitoring and tracking
@@ -139,10 +140,16 @@ Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Loggi
 
 In this project, handle authentication and authorization with JWT Token.
 
-Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Auth)
+Link here : [Authentication And Authorization](https://github.com/hsjalilian/Ocelot/tree/master/src/Auth)
 
 ## RateLimit
 
 In this project, handle client request limitation in custom periodic time per endpoint.
 
 Link here : [RateLimit](https://github.com/hsjalilian/Ocelot/tree/master/src/RateLimit)
+
+## Caching
+
+In this project, use CacheManager for caching output response.
+
+Link here : [Caching](https://github.com/hsjalilian/Ocelot/tree/master/src/Caching)
