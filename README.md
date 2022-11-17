@@ -37,6 +37,7 @@
         <li><a href="#request-aggregation">Request Aggregation</a></li>
         <li><a href="#logging">Logging</a></li>
         <li><a href="#authentication-and-authorization">Authentication and Authorization</a></li>
+        <li><a href="#ratelimit">RateLimit</a></li>
       </ul>
     </li>
   </ol>
@@ -139,3 +140,9 @@ Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Loggi
 In this project, handle authentication and authorization with JWT Token.
 
 Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Auth)
+
+## RateLimit
+
+In this project, handle client request limitation in custom periodic time per endpoint.
+
+Link here : [RateLimit](https://github.com/hsjalilian/Ocelot/tree/master/src/RateLimit)
