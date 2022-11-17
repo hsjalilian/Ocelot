@@ -36,6 +36,7 @@
         <li><a href="#multi-services">Multi Services</a></li>
         <li><a href="#request-aggregation">Request Aggregation</a></li>
         <li><a href="#logging">Logging</a></li>
+        <li><a href="#authentication-and-authorization">Authentication and Authorization</a></li>
       </ul>
     </li>
   </ol>
@@ -132,3 +133,9 @@ Link here : [Request Aggregation](https://github.com/hsjalilian/Ocelot/tree/mast
 In this project, use Serilog for log all request in file.
 
 Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Logging)
+
+## Authentication And Authorization
+
+In this project, handle authentication and authorization with JWT Token.
+
+Link here : [Logging](https://github.com/hsjalilian/Ocelot/tree/master/src/Auth)
