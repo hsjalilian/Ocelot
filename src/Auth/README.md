@@ -17,11 +17,11 @@ After running the projects, for send auth token in header, you can use [Postman]
 
 ### Postman Request
 create a new postman request same as the below picture and test the API gateway with that.
-![](images/auth_postman.png)
+![](../../images/auth_postman.jpg)
 
 ### JWT Token
 To generate test jwt token manually, you can use [this](http://jwtbuilder.jamiekurtz.com/) site.
-![](images/auth.png)
+![](../../images/auth.jpg)
 
 * http://localhost:8000/customer
 * http://localhost:8000/customer/1
