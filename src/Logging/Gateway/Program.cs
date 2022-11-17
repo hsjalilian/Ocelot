@@ -1,9 +1,7 @@
-using Gateway;
 using Microsoft.AspNetCore;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Serilog;
-using Serilog.Events;
 
 var builder = WebHost.CreateDefaultBuilder();
 builder
