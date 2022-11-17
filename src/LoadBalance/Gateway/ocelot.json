@@ -1,0 +1,43 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/customers/GetAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/customers",
+      "UpstreamHttpMethod": [ "Get" ],
+      //"ServiceName": "product", //if use `Service Discovery`
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        },
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/customers/GetByID/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        },
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/customers/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    }
+  ]
+}

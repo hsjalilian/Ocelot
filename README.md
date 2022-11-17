@@ -39,6 +39,7 @@
         <li><a href="#authentication-and-authorization">Authentication and Authorization</a></li>
         <li><a href="#ratelimit">RateLimit</a></li>
         <li><a href="#caching">Caching</a></li>
+        <li><a href="#load-balance">Load Balance</a></li>
       </ul>
     </li>
   </ol>
@@ -153,3 +154,9 @@ Link here : [RateLimit](https://github.com/hsjalilian/Ocelot/tree/master/src/Rat
 In this project, use CacheManager for caching output response.
 
 Link here : [Caching](https://github.com/hsjalilian/Ocelot/tree/master/src/Caching)
+
+## Load Balance
+
+In this project, Balance request to multi same service.
+
+Link here : [Load Balance](https://github.com/hsjalilian/Ocelot/tree/master/src/LoadBalance)
