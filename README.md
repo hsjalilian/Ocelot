@@ -40,6 +40,7 @@
         <li><a href="#ratelimit">RateLimit</a></li>
         <li><a href="#caching">Caching</a></li>
         <li><a href="#load-balance">Load Balance</a></li>
+        <li><a href="#swagger">Swagger</a></li>
       </ul>
     </li>
   </ol>
@@ -160,3 +161,9 @@ Link here : [Caching](https://github.com/hsjalilian/Ocelot/tree/master/src/Cachi
 In this project, Balance request to multi same service.
 
 Link here : [Load Balance](https://github.com/hsjalilian/Ocelot/tree/master/src/LoadBalance)
+
+## Swagger
+
+In this project, Enable Swagger for APIs.
+
+Link here : [Swagger](https://github.com/hsjalilian/Ocelot/tree/master/src/Swagger)
