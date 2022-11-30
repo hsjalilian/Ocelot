@@ -41,6 +41,7 @@
         <li><a href="#caching">Caching</a></li>
         <li><a href="#load-balance">Load Balance</a></li>
         <li><a href="#swagger">Swagger</a></li>
+        <li><a href="#qos">QoS</a></li>
       </ul>
     </li>
   </ol>
@@ -167,3 +168,9 @@ Link here : [Load Balance](https://github.com/hsjalilian/Ocelot/tree/master/src/
 In this project, Enable Swagger for APIs.
 
 Link here : [Swagger](https://github.com/hsjalilian/Ocelot/tree/master/src/Swagger)
+
+## Qos
+
+In this project, Enable circuit breaker.
+
+Link here : [QoS](https://github.com/hsjalilian/Ocelot/tree/master/src/QoS)

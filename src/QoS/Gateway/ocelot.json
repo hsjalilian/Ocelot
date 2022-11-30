@@ -1,0 +1,38 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/customers/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/customers",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 2000,
+        "TimeoutValue": 4000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/customers/GetByID/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/customers/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2, //the number must be greater than 0 
+        "DurationOfBreak": 3000, //the circuit breaker will stay open for 3 second after it is tripped
+        "TimeoutValue": 2000 // if a request takes more than 3 seconds it will automatically be timed out.
+      }
+    }
+  ]
+}
