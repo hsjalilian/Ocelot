@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Text.RegularExpressions;
 
 namespace ApiService.Controllers
 {
@@ -15,7 +14,7 @@ namespace ApiService.Controllers
         }
 
         [HttpGet("GetByID/{id:int}")]
-        public string Get([FromRoute]int id)
+        public string Get([FromRoute] int id)
         {
             if (id >= _names.Length)
                 return "Wrong id!";

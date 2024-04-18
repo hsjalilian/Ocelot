@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.OpenApi.Models;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
@@ -27,7 +25,7 @@ builder
         app.UseSwaggerForOcelotUI(opt =>
         {
             opt.PathToSwaggerGenerator = "/swagger/docs";
-        }).UseOcelot().Wait(); 
+        }).UseOcelot().Wait();
         app.UseSwagger();
         app.UseSwaggerUI();
     });
