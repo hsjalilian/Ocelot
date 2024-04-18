@@ -12,14 +12,16 @@ builder
         conf
             .AddJsonFile("appsettings.json")
             .AddJsonFile("ocelot.json");
+
+        Log.Logger = new LoggerConfiguration()
+            .ReadFrom.Configuration(conf.Build())
+            .CreateLogger();
     })
     .ConfigureServices(c =>
     {
+        c.AddSerilog();
         c.AddOcelot();
     })
-    .UseSerilog((ctx, lc) => lc
-        .ReadFrom.Configuration(ctx.Configuration)
-     )
     .Configure(app =>
     {
         app.UseSerilogRequestLogging();

@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
-var builder =  WebHost.CreateDefaultBuilder();
+
+var builder = WebHost.CreateDefaultBuilder();
 builder
     .UseKestrel()
     .UseContentRoot(Directory.GetCurrentDirectory())
